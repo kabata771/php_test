@@ -1,0 +1,93 @@
+body{
+	background-color:#f8f8f8;
+		}
+
+#header{
+	position:fixed;
+	background-color:#fff;
+	width:100%;
+
+		}
+#titleLogo{
+
+	display:inline-block;
+	background-color:#fff;
+		}
+#title{
+	position:absolute;
+	float:right;
+	display:inline-block;
+	font-size:40px;
+		}
+/*--ホーム画面-------------------------------*/
+span.login{
+	padding-top:10px;
+	padding-left:200px;
+	position:absolute;
+	display:inline-block;
+		}
+.movie{
+	padding-top:80px;
+		}
+.movieTitle{
+	font-size:30px;
+		}
+.movieExplanation{
+	font-size:15px;
+		}
+.movieTextBox{
+	background-color:#eeeeee;
+	border-style:outset;
+	border-color:silver;
+		}
+
+/*--ログイン画面----------------------------*/
+h1.loginTitle{
+	width:900px;
+	margin:0 auto;
+	padding-top:80px;
+	text-align:center;
+		}
+
+div.loginBox {
+	display:block;
+	margin:0 auto;
+	background-color: #fff;
+	min-width: 900px;
+	text-align: center;
+	display: flex;
+}
+div.leftBox {
+	display: block;
+	margin: 0 auto;
+	min-width: 445px;
+	height: 250px;
+	border-style: solid;
+	border-color: #eee;
+	background-color: #fafafa;
+}
+div.rightBox {
+	display: block;
+	margin: 0 auto;
+	width: 445px;
+	height: 250px;
+	border-style: solid;
+	border-color: #eee;
+	background-color: #fafafa;
+}
+#JS01 {
+	width: 420px;
+	font-size:20px;
+	margin-top: 30px;
+	align-items:center;
+	background-color: #ffd800;
+}
+	#JS01.active {
+		border-style: solid;
+		border-color:#fff823;
+		background-color: #ff6a00;
+	}
+.regiBtn{
+	min-width:900px;
+	text-align:center;
+}
